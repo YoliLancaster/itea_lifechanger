@@ -10,28 +10,36 @@
     <header class="header">
       <div class="container">
         <div class="header-container">
-          <nav class="header-nav">
-            <div class="header-logo">
-              <a href="#home"><img src="./img/logo 1.svg" alt="logo" /> </a>
+          <div class="header-logo">
+            <a href="#home"><img src="./img/logo 1.svg" alt="logo" /> </a>
+          </div>
+
+          <div class="hamburger-wrapper">
+            <input type="checkbox" class="toggle-menu" />
+            <div class="hamburger"></div>
+
+            <div class="hamburger-checked">
+              <nav class="header-nav">
+                <ul class="header-menu">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#stack">Tech Stack</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </nav>
+              <div class="header-icons">
+                <svg width="30" height="30">
+                  <use href="./img/symbol-defs.svg#icon-git"></use>
+                </svg>
+                <svg width="30" height="30">
+                  <use href="./img/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+                <svg width="30" height="30">
+                  <use href="./img/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </div>
             </div>
-            <ul class="header-menu">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#">Tech Stack</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </nav>
-          <div class="header-icons">
-            <svg width="30" height="30">
-              <use href="./img/symbol-defs.svg#icon-git"></use>
-            </svg>
-            <svg width="30" height="30">
-              <use href="./img/symbol-defs.svg#icon-twitter"></use>
-            </svg>
-            <svg width="30" height="30">
-              <use href="./img/symbol-defs.svg#icon-linkedin"></use>
-            </svg>
           </div>
         </div>
       </div>
@@ -69,132 +77,140 @@
             <h2 class="about-title">Work Experience</h2>
             <div class="position-list">
               <div class="position-card">
-                <div class="position-about">
-                  <h3 class="position-title">Junior Web Developer</h3>
-                  <div class="position-details-list">
-                    <div class="icon-container">
-                      <svg width="16" height="16">
-                        <use
-                          href="./img/symbol-defs.svg#icon-office-building"
-                        ></use>
-                      </svg>
-                      <p class="position-details">
-                        Dr. Rajkumar’s Learning App
-                      </p>
-                    </div>
-                    <div class="icon-container">
-                      <svg width="16" height="16">
-                        <use href="./img/symbol-defs.svg#icon-location"></use>
-                      </svg>
-                      <p class="position-details">Bengaluru</p>
+                <h3 class="position-title">Junior Web Developer</h3>
+                <div class="position-wrapper">
+                  <div class="position-about">
+                    <div class="position-details-list">
+                      <div class="icon-container">
+                        <svg width="16" height="16">
+                          <use
+                            href="./img/symbol-defs.svg#icon-office-building"
+                          ></use>
+                        </svg>
+                        <p class="position-details">
+                          Dr. Rajkumar’s Learning App
+                        </p>
+                      </div>
+                      <div class="icon-container">
+                        <svg width="16" height="16">
+                          <use href="./img/symbol-defs.svg#icon-location"></use>
+                        </svg>
+                        <p class="position-details">Bengaluru</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="position-time">
-                  <p class="employment">Full Time</p>
-                  <div class="icon-container">
-                    <svg width="16" height="16">
-                      <use
-                        href="./img/symbol-defs.svg#icon-calendar-dates"
-                      ></use>
-                    </svg>
-                    <p class="position-details">Sep 2021 - Dec 2021</p>
+                  <div class="position-time">
+                    <p class="employment">Full Time</p>
+                    <div class="icon-date-container">
+                      <svg width="16" height="16">
+                        <use
+                          href="./img/symbol-defs.svg#icon-calendar-dates"
+                        ></use>
+                      </svg>
+                      <p class="position-details">Sep 2021 - Dec 2021</p>
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="position-card">
-                <div class="position-about">
-                  <h3 class="position-title">Web Development Intern</h3>
-                  <div class="position-details-list">
-                    <div class="icon-container">
-                      <svg width="16" height="16">
-                        <use
-                          href="./img/symbol-defs.svg#icon-office-building"
-                        ></use>
-                      </svg>
-                      <p class="position-details">IonPixelz Web Solutions</p>
-                    </div>
-                    <div class="icon-container">
-                      <svg width="16" height="16">
-                        <use href="./img/symbol-defs.svg#icon-location"></use>
-                      </svg>
-                      <p class="position-details">Bengaluru</p>
+                <h3 class="position-title">Web Development Intern</h3>
+                <div class="position-wrapper">
+                  <div class="position-about">
+                    <div class="position-details-list">
+                      <div class="icon-container">
+                        <svg width="16" height="16">
+                          <use
+                            href="./img/symbol-defs.svg#icon-office-building"
+                          ></use>
+                        </svg>
+                        <p class="position-details">IonPixelz Web Solutions</p>
+                      </div>
+                      <div class="icon-container">
+                        <svg width="16" height="16">
+                          <use href="./img/symbol-defs.svg#icon-location"></use>
+                        </svg>
+                        <p class="position-details">Bengaluru</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="position-time">
-                  <p class="employment">Internship</p>
-                  <div class="icon-container">
-                    <svg width="16" height="16">
-                      <use
-                        href="./img/symbol-defs.svg#icon-calendar-dates"
-                      ></use>
-                    </svg>
-                    <p class="position-details">Sep 2021 - Dec 2021</p>
+                  <div class="position-time">
+                    <p class="employment">Internship</p>
+                    <div class="icon-date-container">
+                      <svg width="16" height="16">
+                        <use
+                          href="./img/symbol-defs.svg#icon-calendar-dates"
+                        ></use>
+                      </svg>
+                      <p class="position-details">Sep 2021 - Dec 2021</p>
+                    </div>
                   </div>
                 </div>
               </div>
+              <div class="position-card">
+                <h3 class="position-title">SEO / SEM Specialist</h3>
+                <div class="position-wrapper">
+                  <div class="position-about">
+                    <div class="position-details-list">
+                      <div class="icon-container">
+                        <svg width="16" height="16">
+                          <use
+                            href="./img/symbol-defs.svg#icon-office-building"
+                          ></use>
+                        </svg>
+                        <p class="position-details">HAAPS</p>
+                      </div>
+                      <div class="icon-container">
+                        <svg width="16" height="16">
+                          <use href="./img/symbol-defs.svg#icon-location"></use>
+                        </svg>
+                        <p class="position-details">Bengaluru</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="position-time">
+                    <p class="employment">Internship</p>
+                    <div class="icon-date-container">
+                      <svg width="16" height="16">
+                        <use
+                          href="./img/symbol-defs.svg#icon-calendar-dates"
+                        ></use>
+                      </svg>
+                      <p class="position-details">Sep 2021 - Dec 2021</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="education-container">
+                <h2 class="about-title">Education</h2>
 
-              <div class="position-card">
-                <div class="position-about">
-                  <h3 class="position-title">SEO / SEM Specialist</h3>
-                  <div class="position-details-list">
-                    <div class="icon-container">
-                      <svg width="16" height="16">
-                        <use
-                          href="./img/symbol-defs.svg#icon-office-building"
-                        ></use>
-                      </svg>
-                      <p class="position-details">HAAPS</p>
-                    </div>
-                    <div class="icon-container">
-                      <svg width="16" height="16">
-                        <use href="./img/symbol-defs.svg#icon-location"></use>
-                      </svg>
-                      <p class="position-details">Bengaluru</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="position-time">
-                  <p class="employment">Internship</p>
-                  <div class="icon-container">
-                    <svg width="16" height="16">
-                      <use
-                        href="./img/symbol-defs.svg#icon-calendar-dates"
-                      ></use>
-                    </svg>
-                    <p class="position-details">Sep 2021 - Dec 2021</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="education-container">
-              <h2 class="about-title">Education</h2>
-              <div class="position-card">
-                <div class="position-about">
+                <div class="position-card">
                   <h3 class="position-title">
                     Bachelor in Electronics &amp; Communication
                   </h3>
-                  <div class="icon-container">
-                    <svg width="16" height="16">
-                      <use
-                        href="./img/symbol-defs.svg#icon-office-building"
-                      ></use>
-                    </svg>
-                    <p class="position-details">
-                      Bangalore Instutute of Technology
-                    </p>
-                  </div>
-                </div>
-                <div class="position-time">
-                  <p class="employment">Full Time</p>
-                  <div class="icon-container">
-                    <svg width="16" height="16">
-                      <use
-                        href="./img/symbol-defs.svg#icon-calendar-dates"
-                      ></use>
-                    </svg>
-                    <p class="position-details">Aug 2015 - Dec 2020</p>
+                  <div class="position-wrapper">
+                    <div class="position-about">
+                      <div class="icon-container">
+                        <svg width="16" height="16">
+                          <use
+                            href="./img/symbol-defs.svg#icon-office-building"
+                          ></use>
+                        </svg>
+                        <p class="position-details">
+                          Bangalore Instutute of Technology
+                        </p>
+                      </div>
+                    </div>
+                    <div class="position-time">
+                      <p class="employment">Full Time</p>
+                      <div class="icon-date-container">
+                        <svg width="16" height="16">
+                          <use
+                            href="./img/symbol-defs.svg#icon-calendar-dates"
+                          ></use>
+                        </svg>
+                        <p class="position-details">Aug 2015 - Dec 2020</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -202,9 +218,251 @@
           </div>
         </div>
       </section>
-      <section></section>
-      <section></section>
-      <section></section>
+      <section class="tech-stack-section" id="stack">
+        <div class="container">
+          <div class="stack-title">
+            <h2 class="about-title">My Tech Stack</h2>
+            <p class="stack-about-text">
+              Technologies I've been working with recently
+            </p>
+          </div>
+          <div class="grid">
+            <div class="stack-icon-wrapper">
+              <svg width="90" height="90">
+                <use href="./img/symbol-defs.svg#icon-icons_html"></use>
+              </svg>
+            </div>
+            <div class="stack-icon-wrapper">
+              <svg width="90" height="90">
+                <use href="./img/symbol-defs.svg#icon-icons_css"></use>
+              </svg>
+            </div>
+            <div class="stack-icon-wrapper">
+              <svg width="90" height="90">
+                <use href="./img/symbol-defs.svg#icon-icons_js"></use>
+              </svg>
+            </div>
+            <div class="stack-icon-wrapper">
+              <svg width="90" height="90">
+                <use href="./img/symbol-defs.svg#icon-logos_react"></use>
+              </svg>
+            </div>
+            <div class="stack-icon-wrapper">
+              <svg width="90" height="90">
+                <use href="./img/symbol-defs.svg#icon-Vector"></use>
+              </svg>
+            </div>
+            <div class="stack-icon-wrapper">
+              <svg width="90" height="90">
+                <use href="./img/symbol-defs.svg#icon-logos_bootstrap"></use>
+              </svg>
+            </div>
+            <div class="stack-icon-wrapper">
+              <svg width="90" height="90">
+                <use href="./img/symbol-defs.svg#icon-Vector-1"></use>
+              </svg>
+            </div>
+            <div class="stack-icon-wrapper">
+              <svg width="90" height="90">
+                <use href="./img/symbol-defs.svg#icon-Vector-2"></use>
+              </svg>
+            </div>
+            <div class="stack-icon-wrapper">
+              <svg width="90" height="90">
+                <use href="./img/symbol-defs.svg#icon-Vector-3"></use>
+              </svg>
+            </div>
+            <div class="stack-icon-wrapper">
+              <svg width="90" height="90">
+                <use href="./img/symbol-defs.svg#icon-Vector-4"></use>
+              </svg>
+            </div>
+            <div class="stack-icon-wrapper">
+              <svg width="90" height="90">
+                <use href="./img/symbol-defs.svg#icon-icons_vscode"></use>
+              </svg>
+            </div>
+            <div class="stack-icon-wrapper">
+              <svg width="90" height="90">
+                <use href="./img/symbol-defs.svg#icon-git"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="projects-section" id="projects">
+        <div class="container">
+          <div class="project-title">
+            <h2 class="about-title">Projects</h2>
+            <p class="stack-about-text">Things I've built so far</p>
+          </div>
+          <div class="project-grid">
+            <div class="card-container">
+              <img src="./img/pr-1.png" alt="project-1" />
+              <h3 class="project-card-title">Project Tile goes here</h3>
+              <p class="project-card-text">
+                This is sample project description random things are here in
+                description This is sample project lorem ipsum generator for
+                dummy content
+              </p>
+              <p class="project-card-stack">
+                <span>Tech stack:</span> HTML, JavaScript, SASS, React
+              </p>
+              <div class="project-card-bottom">
+                <div class="project-card-links">
+                  <svg width="20" height="20">
+                    <use href="./img/symbol-defs.svg#icon-link-chain"></use>
+                  </svg>
+                  <p>Live Preview</p>
+                </div>
+                <div class="project-card-source">
+                  <svg width="20" height="20">
+                    <use href="./img/symbol-defs.svg#icon-git-black"></use>
+                  </svg>
+                  <p>View Code</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+              <img src="./img/pr-2.png" alt="project-2" />
+              <h3 class="project-card-title">Project Tile goes here</h3>
+              <p class="project-card-text">
+                This is sample project description random things are here in
+                description This is sample project lorem ipsum generator for
+                dummy content
+              </p>
+              <p class="project-card-stack">
+                <span>Tech stack:</span> HTML, JavaScript, SASS, React
+              </p>
+              <div class="project-card-bottom">
+                <div class="project-card-links">
+                  <svg width="20" height="20">
+                    <use href="./img/symbol-defs.svg#icon-link-chain"></use>
+                  </svg>
+                  <p>Live Preview</p>
+                </div>
+                <div class="project-card-source">
+                  <svg width="20" height="20">
+                    <use href="./img/symbol-defs.svg#icon-git-black"></use>
+                  </svg>
+                  <p>View Code</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+              <img src="./img/pr-3.png" alt="project-3" />
+              <h3 class="project-card-title">Project Tile goes here</h3>
+              <p class="project-card-text">
+                This is sample project description random things are here in
+                description This is sample project lorem ipsum generator for
+                dummy content
+              </p>
+              <p class="project-card-stack">
+                <span>Tech stack:</span> HTML, JavaScript, SASS, React
+              </p>
+              <div class="project-card-bottom">
+                <div class="project-card-links">
+                  <svg width="20" height="20">
+                    <use href="./img/symbol-defs.svg#icon-link-chain"></use>
+                  </svg>
+                  <p>Live Preview</p>
+                </div>
+                <div class="project-card-source">
+                  <svg width="20" height="20">
+                    <use href="./img/symbol-defs.svg#icon-git-black"></use>
+                  </svg>
+                  <p>View Code</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+              <img src="./img/pr-4.png" alt="project-4" />
+              <h3 class="project-card-title">Project Tile goes here</h3>
+              <p class="project-card-text">
+                This is sample project description random things are here in
+                description This is sample project lorem ipsum generator for
+                dummy content
+              </p>
+              <p class="project-card-stack">
+                <span>Tech stack:</span> HTML, JavaScript, SASS, React
+              </p>
+              <div class="project-card-bottom">
+                <div class="project-card-links">
+                  <svg width="20" height="20">
+                    <use href="./img/symbol-defs.svg#icon-link-chain"></use>
+                  </svg>
+                  <p>Live Preview</p>
+                </div>
+                <div class="project-card-source">
+                  <svg width="20" height="20">
+                    <use href="./img/symbol-defs.svg#icon-git-black"></use>
+                  </svg>
+                  <p>View Code</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+              <img src="./img/pr-5.png" alt="project-5" />
+              <h3 class="project-card-title">Project Tile goes here</h3>
+              <p class="project-card-text">
+                This is sample project description random things are here in
+                description This is sample project lorem ipsum generator for
+                dummy content
+              </p>
+              <p class="project-card-stack">
+                <span>Tech stack:</span> HTML, JavaScript, SASS, React
+              </p>
+              <div class="project-card-bottom">
+                <div class="project-card-links">
+                  <svg width="20" height="20">
+                    <use href="./img/symbol-defs.svg#icon-link-chain"></use>
+                  </svg>
+                  <p>Live Preview</p>
+                </div>
+                <div class="project-card-source">
+                  <svg width="20" height="20">
+                    <use href="./img/symbol-defs.svg#icon-git-black"></use>
+                  </svg>
+                  <p>View Code</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+              <img src="./img/pr-6.png" alt="project-6" />
+              <h3 class="project-card-title">Project Tile goes here</h3>
+              <p class="project-card-text">
+                This is sample project description random things are here in
+                description This is sample project lorem ipsum generator for
+                dummy content
+              </p>
+              <p class="project-card-stack">
+                <span>Tech stack:</span> HTML, JavaScript, SASS, React
+              </p>
+              <div class="project-card-bottom">
+                <div class="project-card-links">
+                  <svg width="20" height="20">
+                    <use href="./img/symbol-defs.svg#icon-link-chain"></use>
+                  </svg>
+                  <p>Live Preview</p>
+                </div>
+                <div class="project-card-source">
+                  <svg width="20" height="20">
+                    <use href="./img/symbol-defs.svg#icon-git-black"></use>
+                  </svg>
+                  <p>View Code</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact-section" id="contact">
+        <div class="container">
+          <h2 class="contact-title">
+            For any questions please mail us: <span>hi@pavanmg.in</span>
+          </h2>
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <div class="container">
@@ -245,8 +503,8 @@
             <ul class="footer-menu">
               <li><a href="#home">Home</a></li>
               <li><a href="#about">About</a></li>
-              <li><a href="#">Tech Stack</a></li>
-              <li><a href="#">Projects</a></li>
+              <li><a href="#stack">Tech Stack</a></li>
+              <li><a href="#projects">Projects</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
           </nav>
