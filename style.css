@@ -722,6 +722,14 @@ h1 > span,
     gap: 0px;
   }
 
+  .card-container {
+    border-radius: 36px 36px 20px 20px;
+  }
+
+  .card-container > img {
+    border-radius: 37px 37px 0 0;
+  }
+
   .grid {
     grid-template-columns: repeat(3, 104px);
     grid-template-rows: repeat(4, 120px);
@@ -855,6 +863,10 @@ h1 > span,
 
   .card-container > img {
     border-radius: 20px 20px 0 0;
+  }
+
+  .card-container {
+    border-radius: 20px;
   }
 
   .address-list,
