@@ -883,7 +883,7 @@ h1 > span,
 
   .project-grid {
     grid-template-columns: repeat(1, 415px);
-    grid-template-rows: repeat(6, 570px);
+    grid-template-rows: repeat(6, 585px);
     gap: 40px 0;
     width: 100%;
     justify-content: start;
